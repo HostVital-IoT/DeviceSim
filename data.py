@@ -1,8 +1,5 @@
-from hashlib import new
 import random
-from tkinter.constants import E
 import requests
-from requests.api import options, request
 import time
 
 bp = 0
@@ -34,6 +31,4 @@ if decision==1:
         time.sleep(5)
 else:
     updatePatient(id)
-
-# send_data()
 
